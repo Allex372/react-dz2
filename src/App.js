@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import PostsComponent from "./components/PostsComponent/PostsComponent";
 import AllComments from "./components/CommentsComponents/AllComments";
+import AllPosts from "./components/PostsComponents/AllPosts";
 
 class App extends Component {
 
@@ -8,9 +8,9 @@ class App extends Component {
     render() {
     return (
         <div>
-            <PostsComponent/>
-            <hr/>
             <AllComments/>
+            <hr/>
+            <AllPosts/>
         </div>
     );
   }

@@ -3,7 +3,7 @@ import CommentsComponent from "./CommentsComponent";
 
 class AllComments extends Component {
 
-    state = {comments:[]}
+    state = {comments:[], choosenComents:null}
 
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/comments')
@@ -13,12 +13,25 @@ class AllComments extends Component {
             })
     }
 
+    selectComments =(id)=>{
+        let choosenComents = this.state.comments.find(value => value.id === id)
+        this.setState({choosenComents})
+    }
+
     render() {
-        let {comments} = this.state
+        let {comments, choosenComents} = this.state
         return (
             <div>
                 {
-                    comments.map(value => (<CommentsComponent item={value} key={value.id}/>))
+                    comments.map(value => (<CommentsComponent
+                        item={value}
+                        key={value.id}
+                        selectComments={this.selectComments}
+                    />))
+                }
+                <hr/>
+                {
+                    choosenComents&&<CommentsComponent item={choosenComents}/>
                 }
             </div>
         );

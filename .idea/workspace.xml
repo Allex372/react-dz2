@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd4147ad-c62f-4c46-a36d-920ff5e2c3a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_12_2020_11_01_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_12_2020_11_01_[Default_Changelist]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CommentsComponents/AllComments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CommentsComponents/CommentsComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostsComponent/PostComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostsComponent/PostsComponent.js" afterDir="false" />
+    <list default="true" id="bd4147ad-c62f-4c46-a36d-920ff5e2c3a0" name="Default Changelist" comment="innn">
+      <change afterPath="$PROJECT_DIR$/src/components/PostsComponents/AllPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostsComponents/PostsComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentsComponents/AllComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentsComponents/AllComments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentsComponents/CommentsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentsComponents/CommentsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostsComponent/PostComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostsComponent/PostsComponent.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +75,23 @@
       <updated>1606941990139</updated>
       <workItem from="1606941992142" duration="1179000" />
       <workItem from="1606981030715" duration="1810000" />
+      <workItem from="1607017862280" duration="2203000" />
     </task>
+    <task id="LOCAL-00001" summary="innn">
+      <created>1606994072583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606994072583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="innn" />
+    <option name="LAST_COMMIT_MESSAGE" value="innn" />
   </component>
 </project>
