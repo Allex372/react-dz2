@@ -1,21 +1,21 @@
 import React, {Component} from 'react';
 import PostsComponents from "./PostsComponents";
+import {PostsService} from "../../services/postService/PostsService";
 
 class AllPosts extends Component {
 
     state = {posts:[], chosenEl:null}
 
+    PostsService = new PostsService();
+
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/posts')
-            .then(value => value.json())
-            .then(postValue=>{
-                this.setState({posts:postValue})
-            })
+        this.PostsService.onGetPost()
+            .then(value => this.setState({posts:value}))
     }
 
     infoPosts=(id)=>{
-        let chosenEl = this.state.posts.find(value=>value.id===id);
-        this.setState({chosenEl});
+        this.PostsService.getPostsById(id)
+            .then(value => this.setState({chosenEl:value}))
     }
 
     render() {
